@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>scoreboard</title>
+	<link rel="stylesheet" type="text/css" href="scorebd.css">
+            <style type="text/css">
+                @media only screen and (max-width: 600px ){
+    
+    #home-div{
+        margin-left: 70%;
+        
+        padding: 4%;
+        
+    }
+
+    #guest-div{
+        margin-right: -50%;
+      
+        padding: 4%;
+       
+    }
+    .container{
+    
+   
+    max-width: 75%;
+    
+    width: 575px;
+    height: 300px;
+  
+    }
+
+    #board-title,
+    #board-titlehome{
+    margin-top: -30%;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 18px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+    padding-right:10%;
+   
+}
+
+#guestscore,
+#homescore{
+    background: #080001;
+    border-radius: 5px;
+    width: 80px;
+    height: 60px;
+    padding-top: 20%;
+    padding: 0%;
+}
+
+#score-guest,
+#score-home{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+}
+#inc,
+#dec{
+    background-color:#1B244A ;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+h4{
+    align-items: center;
+    width: 30px;
+    height: 25.77px;
+    left: 89px;
+    top: 280px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2px;
+   
+}
+
+
+#won{
+    margin: 0%;
+}
+#but{   
+    padding-right: 100%;
+    padding-top: 70%;
+
+    
+}
+#winner{
+    background-color: transparent;
+    border-radius: 15%;
+    padding: 0%;
+}
+
+}
+
+            </style>
+
+
+</head>
+<body>
+        <div class="container">
+            <div id="home-div">
+                <h3 id="board-titlehome">HOME</h3>
+                <div id="homescore"><h3 id="score-home">0</h3></div>
+                <div id="incree">
+                    <button id="inc" onclick="add1()">+1</button>
+                    <button id="inc" onclick="add2()">+2</button>
+                    <button id="inc" onclick="add3()">+3</button>
+                </div>
+            </div>
+
+            <div id="guest-div">
+                <h3 id="board-title">GUEST</h3>
+                <div id="guestscore"><h3 id="score-guest">0</h3></div>
+                
+                <div id="decre">
+                    <button id="dec" onclick="add()">+1</button>
+                    <button id="dec" onclick="addd()">+2</button>
+                    <button id="dec" onclick="adddd()">+3</button>
+                </div>
+            </div>
+
+            <div id="but">
+            <h4 id="won">.</h4>
+            <button id="winner" onclick="win()">winner</button>
+            </div>
+
+        </div>
+    
+</body>
+<!-- <script type="text/javascript" src="scorebd.js"></script> -->
+</html>
