@@ -4,7 +4,7 @@ body {
     text-align: center;
     
     padding-top: 10%;
-    padding-left: 25%;
+    padding-left: 15%;
     background-image: url(ball.jpg);
     background-image: 100%;
    
@@ -345,6 +345,13 @@ h4{
 
 
 @media only screen and (max-width: 320px ){
+    .time{
+        margin-left: 30%;
+    }
+    .all-butt{
+        display: flex;
+   
+    }
     
     .container{
     max-width: 350px;
@@ -407,3 +414,49 @@ h4{
 }
 
 
+/* timer button */
+#startButton{
+    background-color: #13db1a; /* Green */
+    border: none;
+    border-radius: 5px;
+    box-shadow: -2px -2px 2px 2px #EEEEEE;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+
+
+#stopButton {
+    background-color: #f10c0c; /* Green */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #EEEEEE;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+  #startButton:hover {
+    background-color: #3e8e41;
+  }
+  #stopButton:hover {
+    background-color: #b85757;
+  }
+
+  #startButton:active, #stopButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
