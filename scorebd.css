@@ -346,14 +346,18 @@ h4{
 
 @media only screen and (max-width: 320px ){
     .time{
-        margin-left: 30%;
+        margin-left: 40%;
     }
     .all-butt{
         display: flex;
    
     }
+    body{
+        margin: 20% 0% 0% 30%;
+    }
     
     .container{
+    align-content: center;
     max-width: 350px;
     width: 575px;
     height: 300px;
