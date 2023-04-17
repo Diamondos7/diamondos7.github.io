@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>scoreboard</title>
 	<link rel="stylesheet" type="text/css" href="scorebd.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cursed+Timer+ULiL&display=swap">
             <style type="text/css">
             </style>
 
@@ -17,6 +18,7 @@
         <button id="startButton">Start</button>
         <button id="stopButton">Stop</button>
     </div>
+    <center><h4 style="position: ;" id="won"></h4></center>
     </div>
     
     <center>
@@ -46,15 +48,14 @@
                     <button id="dec" onclick="adddd()">+3</button>
                 </div>
             </div>
-
-            <div id="but">
-            <h4 id="won"></h4>
-            <button id="winner" onclick="win()" style="color: aliceblue;">winner</button>
-            </div>
-
         </div>
+
+        <div id="but">
+           
+            <button style="border-radius: 10px; color: cornflowerblue;" id="winner" onclick="win()"><h3 style="color: black;">WINNER!</h3></button>
+            </div>
     </center>
-        <footer style="color: white;"> Made with ❤😊by 💎💎💎</footer>
+        <footer style="color: rgb(255, 255, 255);"> Made with ❤😊by 💎💎💎</footer>
 </body>
 <script type="text/javascript" src="scorebd.js"></script>
 </html>
