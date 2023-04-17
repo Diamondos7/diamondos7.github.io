@@ -119,7 +119,7 @@ function reset() {
 	tm1.innerText = count;
 	countt = parseInt("0");
 	tm2.innerText = countt;
-	
+	wn.innerText = "";
 
 	localStorage.clear()
 	
