@@ -108,11 +108,11 @@ function win(){
 	let number2 = parseInt(number2Element.innerHTML); // Convert innerHTML of "score-guest" to integer
 
 	if (number1 > number2) {
-        let message = "HomeTmWon!";
+        let message = "HomeWon!";
         wn.innerHTML = message;
         console.log(message); // Output: "The greatest number is: 1234"
     } else if (number2 > number1) {
-        let message = "GuestTmWON!";
+        let message = "GuestTWON!";
         wn.innerHTML = message;
         console.log(message); // Output: "The greatest number is: 5678"
     } else {
