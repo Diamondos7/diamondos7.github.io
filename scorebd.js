@@ -102,7 +102,7 @@ function win() {
 		console.log(message);
 		alert(" 🎇🎇Congratulations Home team you won with a total of: "  + number1  + "points 🎇🎇")
 	} else if (number2 > number1) {
-		let message = "Guest Won!" + number2;
+		let message = "GuestWon!" + number2;
 		wn.innerHTML = message;
 		console.log(message);
 		alert(" 🎇🎇Congratulations Guest team you won with a total of: "  + number2  + "points 🎇🎇")
