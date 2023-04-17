@@ -184,9 +184,7 @@ h4{
     font-weight: 400px;
     margin-right: 10%;
 }
-#but{   
-    
-}
+
 #winner:hover{
     background-color: #1B244A;
     border-radius: 15%;
@@ -284,9 +282,7 @@ h4{
 #won{
     margin: 0%;
 }
-#but{   
-    
-}
+
 #winner{
     
     border-radius: 15%;
@@ -340,9 +336,6 @@ h4{
 #won{
     margin: 0%;
 }
-#but{   
-     
-}
 #winner{
    
     border-radius: 15%;
@@ -369,9 +362,7 @@ h4{
         display: flex;
    
     }
-    body{
-        
-    }
+   
     
     .container{
     align-content: center;
@@ -407,9 +398,7 @@ h4{
     font-weight: 400px;
     margin-right: 75%;
 }
-#but{   
-    
-}
+
 #winner{
     color: #29448d;
 }
@@ -444,9 +433,7 @@ h4{
         display: flex;
    
     }
-    body{
-        
-    }
+ 
     
     .container{
     align-content: center;
@@ -459,6 +446,7 @@ h4{
     #board-title,
     #board-titlehome{
     font-weight: 1000; 
+    margin-top: 20px;
 }
 
 
@@ -482,9 +470,7 @@ h4{
     font-weight: 400px;
     margin-right: 75%;
 }
-#but{   
-    
-}
+
 #winner{
     color: #29448d;
 }
@@ -497,6 +483,7 @@ h4{
 #inc,
 #dec{
     font-size: 15px;
+    text-align: center;
 }
 .but{
     margin-right: 40%;
